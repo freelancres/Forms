@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+color: #7a7d7f;
+text-align:center;
+}
+
+.formArea{
+    max-width: 42rem;
+    margin: 0 auto;
+}
+label,
+input,
+button,
+textarea{
+    display: block;
+    font-size: 1.5rem;
+    color: #7a7d7f;
+}
+label{
+    font-weight: bold;
+}
+input, textarea{
+    width: 100%;
+    min-height: 2rem;
+    padding: 0.5rem;
+}
+
+::placeholder{
+    opacity: 0.4;
+    font-size: 1rem;
+}
+
+#email {
+    text-transform: lowercase;
+}
+
+input:active,
+input:focus,
+input:focus-visible{
+    background-color: #e7f0fe;
+}
+
+button{
+    color: #fff;
+    background-color: #444444;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    margin: 0.4rem;
+   /* cursor: not-allowed;*/
+   cursor: pointer;
+}
